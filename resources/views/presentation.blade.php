@@ -1,0 +1,32 @@
+@extends('layouts.app')
+
+@section('title', 'Presentacion')
+
+@section('content')
+		<!-- Event Details Start -->
+        <div class="event-details-area blog-area pt-0 pb-140">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="event-details">
+                            <div class="event-details-img">
+                                <img src="img/event/event-details-1.jpg" alt="event-details">
+                                {{-- <div class="event-date">
+                                    <h3>20 <span>jun</span></h3>  
+                                </div> --}}
+                            </div>
+                            <div class="event-details-content">
+                                <h2>PRESENTACIÓN</h2>
+                                <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit asnatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui </p>
+                                <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem </p>
+                                <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness pcias unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>                                
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti esse, eos porro provident quisquam, cum, veniam ex dicta laudantium ad accusamus quas. Incidunt corporis consequuntur minima reprehenderit voluptatem, veniam totam.</p>
+                            </div>                                
+                        </div>
+                    </div>
+                    @include('includes.sidebar')
+                </div>
+            </div>
+        </div>
+        <!-- Event Details End -->
+@endsection
